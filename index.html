@@ -12,15 +12,15 @@
     <h1>DDT4D</h1>
     <h1>NURULHUDA BINTI ABDUL RAHMAN </h1>
 
-    <input type="text" id="Firstname">
-    <input type="text" id="Secname">
+    <input type="text" id="Fname">
+    <input type="text" id="Lname">
     <button type="button" onclick="papar();">Papar</button>
     <span id="hasil"></span>
 
     <script>
         function papar() {
-            let Firstname = document.getElementById('Firstname').value;
-            let Secname=document.getElementById('Secname').value;
+            let Firstname = document.getElementById('Fname').value;
+            let Secname=document.getElementById('Lname').value;
             document.getElementById('hasil').innerHTML = '<b>Encik</b> ' + Firstname + Secname;
         }
 
